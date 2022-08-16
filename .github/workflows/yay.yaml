@@ -1,0 +1,10 @@
+on: push
+jobs:
+  do-the-thing:
+    runs-on: ubuntu-latest
+    steps:
+      - run: which rustc
+      - run: rustup which rustc
+      - run: rustc -V
+      - run: rustup toolchain list
+      - run: rustup component list
