@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "github-actions-playground"
+name = "yaay"
 version = "0.1.0"
